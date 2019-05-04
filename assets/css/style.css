@@ -21,3 +21,17 @@ body {
     width:100%;
     padding:20px;
 }
+
+.card {
+    margin: 10px;
+}
+
+.card-img-top {
+    background-color: black;
+}
+
+.card-body {
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
