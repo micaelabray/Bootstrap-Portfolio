@@ -1,0 +1,10 @@
+body {
+    background-image: url(../images/white-waves.png);
+    background-color: #ccc;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img {
+    height: 75%;
+    width: 75%;
+}
