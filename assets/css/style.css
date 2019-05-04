@@ -4,7 +4,20 @@ body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-img {
-    height: 75%;
-    width: 75%;
+.main {
+    background-color: white;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+#profilePicture {
+    height: 100%;
+    width: 100%;
+    padding:20px;
+}
+
+.portfolioPicture {
+    height:100%;
+    width:100%;
+    padding:20px;
 }
