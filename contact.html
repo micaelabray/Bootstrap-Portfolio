@@ -32,13 +32,30 @@
     </nav>
     <br />
 
-  <!--Container-->
-  <div class="main container">
-        <div class="row">
-          <div class="col-sm-12 col-md-8 col-lg-4 offset-md-4 offset-lg-4">
-            <!--Contact form-->
-          </div>
-        </div>
+    <!--Container-->
+    <div class="main container">
+        <!--Contact form-->
+        
+
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="James Smith">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="validationTextarea">Message</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                <div class="invalid-feedback">
+                Please enter a message in the textarea.
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary">Submit</button>
+        </form>
+    
   
     
     </div>
